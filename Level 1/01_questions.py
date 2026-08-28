@@ -1,11 +1,11 @@
-'''Get a number from user and add 2 to that number and print the result.'''
+'''Problem 1
+Question: Get a number from user and add 2 to that number and print the result.
+Testcase:
+Input: 45 → Output: 47
+Input: 56789 → Output: 56791.'''
 
-def add_numbers():
-    try:
-        number=int(input())
-        result = number+2
-        print(result)
-    except ValueError:
-        print("Error")
-add_numbers()
+number=int(input())
+result = number+2
+print(result)
+    
 

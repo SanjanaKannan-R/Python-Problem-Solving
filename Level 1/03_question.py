@@ -1,10 +1,11 @@
-'''Get a number from user and multiply 3 to that number and print the result.'''
+'''Problem 3
+Question: Get a number from user and multiply 3 to that number and print the result.
+Testcase:
+Input: 45 → Output: 135
+Input: 1200 → Output: 3600.'''
 
-def multiply():
-    try:
-        number = int(input())
-        result = number * 3
-        print(result)
-    except ValueError:
-        print("Error")
-multiply()
+
+number = int(input())
+result = number * 3
+print(result)
+    

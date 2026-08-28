@@ -1,10 +1,10 @@
-'''Get a number from user and divide by the number by 6 and print the quotient.'''
+'''Problem 4
+Question: Get a number from user and divide by the number by 6 and print the quotient.
+Testcase:
+Input: 45 → Output: 7
+Input: 143 → Output: 23'''
 
-def divide_number():
-    try:
-        number = int(input())
-        quotient = number/6
-        print(quotient)
-    except ValueError:
-        print("Error")
-divide_number()
+number = int(input())
+quotient = number/6
+print(quotient)
+    
